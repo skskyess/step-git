@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(50, 65, 65);
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.items a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.items{
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    justify-content: center; 
+}
+
+.img1,
+.img2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 img,
+.img2 img{
+    margin: 10px;
+}
+
+.seans-images img{
+    margin: 30px;
+}
+
+.seans,
+.otziv,
+.about,
+.pricing,
+.head{
+    margin: 50px;
+}
+
+.seans-images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.otziv-main{
+    display: flex;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.text1{
+    background-color: rgb(51, 73, 91);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.text{
+    background-color: rgb(88, 161, 225);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.box1{
+    justify-content: center;
+    display: flex;
+}
+
+.terapy{
+    width: 400px;
+    margin: 50px;
+}
+
+.terapy p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.img-about{
+    margin: 50px;
+}
+
+.price{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.abonement{
+    display: flex;
+    /* margin-right: 100px; */
+}
+
+.abonement p,
+.abonement span{
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.head button{
+    padding: 7px 15px;
+    background-color: rgb(88, 161, 225);
+    color: white;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+}
+
+.pool button{
+    padding: 7px 15px;
+    background-color: white;
+    color: rgb(88, 161, 225);
+    margin-top: 10px;
+}
+
+.pool{
+    background-color: rgb(88, 161, 225);
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 200px;
+}
+.pool p{
+    margin-top: 10px;
+}
+
+.one{
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+}
